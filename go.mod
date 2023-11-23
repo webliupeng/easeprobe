@@ -1,4 +1,4 @@
-module github.com/megaease/easeprobe
+module github.com/megaease/easeprobe/v2
 
 go 1.20
 
