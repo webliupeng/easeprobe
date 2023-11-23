@@ -31,9 +31,9 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/metric"
-	"github.com/megaease/easeprobe/probe/base"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/metric"
+	"github.com/megaease/easeprobe/v2/probe/base"
 )
 
 // TLS implements a config for TLS

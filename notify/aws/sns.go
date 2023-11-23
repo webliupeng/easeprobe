@@ -22,8 +22,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sns"
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/report"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/report"
 	log "github.com/sirupsen/logrus"
 )
 

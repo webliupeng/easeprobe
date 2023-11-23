@@ -31,19 +31,19 @@ import (
 	"strings"
 	"time"
 
-	"github.com/megaease/easeprobe/channel"
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/notify"
-	"github.com/megaease/easeprobe/probe"
-	"github.com/megaease/easeprobe/probe/client"
-	"github.com/megaease/easeprobe/probe/host"
-	"github.com/megaease/easeprobe/probe/http"
-	"github.com/megaease/easeprobe/probe/ping"
-	"github.com/megaease/easeprobe/probe/shell"
-	"github.com/megaease/easeprobe/probe/ssh"
-	"github.com/megaease/easeprobe/probe/tcp"
-	"github.com/megaease/easeprobe/probe/tls"
-	"github.com/megaease/easeprobe/probe/websocket"
+	"github.com/megaease/easeprobe/v2/channel"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/notify"
+	"github.com/megaease/easeprobe/v2/probe"
+	"github.com/megaease/easeprobe/v2/probe/client"
+	"github.com/megaease/easeprobe/v2/probe/host"
+	"github.com/megaease/easeprobe/v2/probe/http"
+	"github.com/megaease/easeprobe/v2/probe/ping"
+	"github.com/megaease/easeprobe/v2/probe/shell"
+	"github.com/megaease/easeprobe/v2/probe/ssh"
+	"github.com/megaease/easeprobe/v2/probe/tcp"
+	"github.com/megaease/easeprobe/v2/probe/tls"
+	"github.com/megaease/easeprobe/v2/probe/websocket"
 
 	"github.com/invopop/jsonschema"
 	log "github.com/sirupsen/logrus"
@@ -168,7 +168,7 @@ func JSONSchema() (string, error) {
 			v := reflect.New(t)
 			vt := v.Elem().Type()
 			name = vt.PkgPath() + "/" + vt.Name()
-			name = strings.TrimPrefix(name, "github.com/megaease/easeprobe/")
+			name = strings.TrimPrefix(name, "github.com/megaease/easeprobe/v2/")
 			name = strings.ReplaceAll(name, "/", "_")
 			log.Debugf("The struct name has been replaced [%s ==> %s]", t.Name(), name)
 		}

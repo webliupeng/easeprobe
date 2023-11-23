@@ -30,8 +30,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/proxy"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe"
 )
 
 var (

@@ -30,7 +30,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"
 
-	"github.com/megaease/easeprobe/global"
+	"github.com/megaease/easeprobe/v2/global"
 )
 
 var testResults = []Result{

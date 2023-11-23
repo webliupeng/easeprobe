@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/megaease/easeprobe/notify/base"
+	"github.com/megaease/easeprobe/v2/notify/base"
 	"github.com/stretchr/testify/assert"
 )
 

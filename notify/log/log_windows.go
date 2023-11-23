@@ -21,7 +21,7 @@
 package log
 
 import (
-	"github.com/megaease/easeprobe/report"
+	"github.com/megaease/easeprobe/v2/report"
 	log "github.com/sirupsen/logrus"
 )
 

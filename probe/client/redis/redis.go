@@ -24,7 +24,7 @@ import (
 	"fmt"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	log "github.com/sirupsen/logrus"
 )
 

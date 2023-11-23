@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/megaease/easeprobe/global"
+	"github.com/megaease/easeprobe/v2/global"
 )
 
 // Config is the daemon config

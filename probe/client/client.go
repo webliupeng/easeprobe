@@ -21,16 +21,16 @@ package client
 import (
 	"fmt"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe"
-	"github.com/megaease/easeprobe/probe/client/conf"
-	"github.com/megaease/easeprobe/probe/client/kafka"
-	"github.com/megaease/easeprobe/probe/client/memcache"
-	"github.com/megaease/easeprobe/probe/client/mongo"
-	"github.com/megaease/easeprobe/probe/client/mysql"
-	"github.com/megaease/easeprobe/probe/client/postgres"
-	"github.com/megaease/easeprobe/probe/client/redis"
-	"github.com/megaease/easeprobe/probe/client/zookeeper"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/probe/client/kafka"
+	"github.com/megaease/easeprobe/v2/probe/client/memcache"
+	"github.com/megaease/easeprobe/v2/probe/client/mongo"
+	"github.com/megaease/easeprobe/v2/probe/client/mysql"
+	"github.com/megaease/easeprobe/v2/probe/client/postgres"
+	"github.com/megaease/easeprobe/v2/probe/client/redis"
+	"github.com/megaease/easeprobe/v2/probe/client/zookeeper"
 	log "github.com/sirupsen/logrus"
 )
 

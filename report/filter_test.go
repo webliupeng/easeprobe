@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/megaease/easeprobe/probe"
-	"github.com/megaease/easeprobe/probe/base"
+	"github.com/megaease/easeprobe/v2/probe"
+	"github.com/megaease/easeprobe/v2/probe/base"
 	"github.com/stretchr/testify/assert"
 )
 

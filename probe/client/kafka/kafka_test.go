@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"bou.ke/monkey"
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	"github.com/segmentio/kafka-go"
 	"github.com/stretchr/testify/assert"
 )

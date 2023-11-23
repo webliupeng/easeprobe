@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	log "github.com/sirupsen/logrus"
 	"github.com/uptrace/bun/driver/pgdriver"
 )

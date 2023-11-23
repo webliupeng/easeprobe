@@ -23,7 +23,7 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	"github.com/segmentio/kafka-go"
 	"github.com/segmentio/kafka-go/sasl/plain"
 	log "github.com/sirupsen/logrus"

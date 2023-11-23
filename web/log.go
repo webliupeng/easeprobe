@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/go-chi/chi/middleware"
-	"github.com/megaease/easeprobe/global"
+	"github.com/megaease/easeprobe/v2/global"
 	"github.com/sirupsen/logrus"
 )
 

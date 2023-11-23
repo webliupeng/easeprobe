@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe/base"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe/base"
 	log "github.com/sirupsen/logrus"
 )
 

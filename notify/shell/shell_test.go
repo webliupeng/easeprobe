@@ -22,9 +22,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe"
-	"github.com/megaease/easeprobe/report"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe"
+	"github.com/megaease/easeprobe/v2/report"
 	"github.com/stretchr/testify/assert"
 )
 

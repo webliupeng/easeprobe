@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/go-zookeeper/zk"
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	log "github.com/sirupsen/logrus"
 )
 

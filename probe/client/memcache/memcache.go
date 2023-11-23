@@ -24,7 +24,7 @@ import (
 	"strings"
 
 	MemcacheClient "github.com/bradfitz/gomemcache/memcache"
-	"github.com/megaease/easeprobe/probe/client/conf"
+	"github.com/megaease/easeprobe/v2/probe/client/conf"
 	log "github.com/sirupsen/logrus"
 )
 

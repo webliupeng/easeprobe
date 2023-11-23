@@ -18,7 +18,7 @@
 package conf
 
 import (
-	"github.com/megaease/easeprobe/probe"
+	"github.com/megaease/easeprobe/v2/probe"
 )
 
 // MergeConstLabels merge const labels from all probers.

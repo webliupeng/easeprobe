@@ -29,12 +29,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/megaease/easeprobe/channel"
-	"github.com/megaease/easeprobe/conf"
-	"github.com/megaease/easeprobe/daemon"
-	"github.com/megaease/easeprobe/global"
-	"github.com/megaease/easeprobe/probe"
-	"github.com/megaease/easeprobe/web"
+	"github.com/megaease/easeprobe/v2/channel"
+	"github.com/megaease/easeprobe/v2/conf"
+	"github.com/megaease/easeprobe/v2/daemon"
+	"github.com/megaease/easeprobe/v2/global"
+	"github.com/megaease/easeprobe/v2/probe"
+	"github.com/megaease/easeprobe/v2/web"
 
 	log "github.com/sirupsen/logrus"
 )

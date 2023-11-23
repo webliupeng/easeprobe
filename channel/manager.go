@@ -21,8 +21,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/megaease/easeprobe/notify"
-	"github.com/megaease/easeprobe/probe"
+	"github.com/megaease/easeprobe/v2/notify"
+	"github.com/megaease/easeprobe/v2/probe"
 )
 
 var channel = make(map[string]*Channel)
